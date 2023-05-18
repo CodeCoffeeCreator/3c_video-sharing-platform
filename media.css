@@ -227,3 +227,88 @@
     top: 0;
   }
 }
+
+/******************* SLIDER TOP ********************/
+@media (min-width: 1499px) {
+  #home-slider h1.slider-text {
+    margin: 25px 0 0;
+  }
+
+  #home-slider p {
+    margin: 32px 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  #home-slider .slick-bg {
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .hover-buttons .btn {
+    font-size: 10px;
+  }
+
+  #home-slider .slick-bg {
+    padding: 50px 0;
+  }
+
+  .r-mb-23 {
+    margin-bottom: 23px;
+  }
+
+  .trailor-video {
+    display: none;
+  }
+
+  #home-slider h1.slider-text {
+    font-size: 35px;
+  }
+
+  .iq-main-slider {
+    padding-top: 60px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #home-slider h1.slider-text {
+    line-height: 62px;
+    margin: 0;
+  }
+
+  #home-slider p {
+    margin: 22px 0;
+  }
+
+  .iq-main-header {
+    margin-bottom: 10px;
+  }
+
+  .main-content {
+    padding-top: 25px;
+  }
+
+  #home-slider p {
+    width: 100%;
+  }
+
+  .slick-bg::before {
+    background: linear-gradient(
+      -360deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(20, 20, 20, 1) 40%,
+      rgba(83, 100, 141, 0) 100%
+    );
+  }
+
+  .play-button i {
+    font-size: 16px;
+  }
+
+  .play-button::after,
+  .play-button::before {
+    width: 40px;
+    height: 40px;
+  }
+}
