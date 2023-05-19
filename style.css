@@ -3,6 +3,8 @@
 @import 'home-slider.css';
 @import 'main-content.css';
 @import 'topten.css';
+@import 'parallax.css';
+@import 'trending.css';
 @import 'footer.css';
 @import 'media.css';
 
@@ -65,4 +67,8 @@ a {
 
 .text-primary {
   color: #e50914 !important;
+}
+
+.s-margin {
+  margin-top: 40px;
 }

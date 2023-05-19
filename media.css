@@ -472,3 +472,111 @@
     z-index: -1;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .textwidget > div > a {
+    margin-left: 0 !important;
+  }
+
+  .textwidget > div {
+    display: block !important;
+  }
+}
+
+/************** PARALLAX **************/
+@media (max-width: 991px) {
+  li.slide-item .block-description .parallax-ratting span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .parallax-window {
+    padding: 60px 0;
+  }
+
+  .parallax-heading {
+    font-size: 35px;
+  }
+}
+
+/************* TRENDING **************/
+@media (max-width: 767px) {
+  .trending-content {
+    padding: 0;
+  }
+  .trending-info .trending-dec {
+    width: 70%;
+  }
+  .trending-pills {
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .main-title {
+    font-size: 1em;
+  }
+  .iq-main-header {
+    margin-bottom: 10px;
+  }
+  .iq-main-header .title {
+    margin-bottom: 50px;
+  }
+  .trending-info .block-social.social1 {
+    margin-left: 0 !important;
+  }
+  .trending-info .trending-text {
+    font-size: 35px !important;
+    line-height: 1.3;
+  }
+  .trending-info {
+    padding: 60px 15px;
+  }
+  .episode-name {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .text-detail.episode-name .trending-year {
+    padding-left: 0;
+    font-size: 24px;
+  }
+  .episodes-slider1 .owl-nav button.owl-prev,
+  .episodes-slider1 .owl-nav button.owl-next {
+    width: 30px;
+    height: 30px;
+    font-size: 27px;
+  }
+  .episode-name .trending-year::before {
+    content: none;
+  }
+
+  .overlay-wrapper::before {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(51, 51, 51, 0),
+      rgba(0, 0, 0, 0.8) 40%,
+      #000 100%
+    );
+  }
+  #trending-slider-nav .slick-arrow,
+  #trending-slider-nav .slick-arrow:hover {
+    background: none;
+  }
+  #trending-slider-nav .slick-prev {
+    left: 0px;
+    top: 150px;
+  }
+  #trending-slider-nav .slick-next {
+    right: 0px;
+    top: 150px;
+  }
+}
+
+@media (max-width: 479px) {
+  .banner-caption,
+  .overlay-s-name {
+    left: 15px;
+  }
+  .banner-wrapper .trending-info .trending-dec {
+    display: none;
+  }
+}
