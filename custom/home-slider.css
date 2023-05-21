@@ -59,15 +59,15 @@
 }
 
 #home-slider .slick-bg.s-bg-1 {
-  background-image: url(img/slider/slider1.jpg);
+  background-image: url(../img/slider/slider1.jpg);
 }
 
 #home-slider .slick-bg.s-bg-2 {
-  background-image: url(img/slider/slider2.webp);
+  background-image: url(../img/slider/slider2.webp);
 }
 
 #home-slider .slick-bg.s-bg-3 {
-  background-image: url(img/slider/slider3.jpg);
+  background-image: url(../img/slider/slider3.jpg);
 }
 
 .slick-bg::before {
@@ -148,7 +148,7 @@
 
 .big-title {
   font-family: 'Playfair Display', serif;
-  background: url(img/texure.jpg);
+  background: url(../img/texure.jpg);
   background-repeat: repeat-x;
   background-position: 100% 100%;
   color: transparent;
