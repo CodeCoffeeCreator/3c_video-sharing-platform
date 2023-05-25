@@ -408,7 +408,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #top-ten-slider .NextArrow {
     right: 10px !important;
   }
