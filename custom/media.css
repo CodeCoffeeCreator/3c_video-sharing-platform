@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .vertical_s {
+    display: none;
+  }
+}
+
 @media (max-width: 991px) {
   header .navbar-light .navbar-brand img.logo {
     width: 100px;
@@ -397,7 +403,7 @@
 }
 
 /***************** TOP TEN ***************/
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   #top-ten-slider .NextArrow,
   #top-ten-slider .PrevArrow {
     display: none;
@@ -406,7 +412,7 @@
   .topten-title {
     display: none;
   }
-}
+} */
 
 @media (max-width: 768px) {
   #top-ten-slider .NextArrow {
