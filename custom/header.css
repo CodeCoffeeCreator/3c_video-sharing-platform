@@ -484,6 +484,7 @@ header .navbar ul li.menu-item a:hover {
   border-radius: 0;
   color: #fff;
   background: #191919;
+  pointer-events: none;
 }
 
 .media img {
